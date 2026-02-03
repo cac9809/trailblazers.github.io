@@ -1,0 +1,45 @@
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+    
+    header {
+      background: #2f6b64;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      background: #ffffff;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .tab-button {
+      padding: 1rem 1.5rem;
+      cursor: pointer;
+      border: none;
+      background: none;
+      font-size: 1rem;
+    }
+
+    .tab-button.active {
+      border-bottom: 3px solid #2f6b64;
+      font-weight: bold;
+      color: #2f6b64;
+    }
+
+    .tab-content {
+      display: none;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
