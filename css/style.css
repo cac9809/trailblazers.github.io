@@ -1,6 +1,8 @@
+
+    
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       background: #f5f7fa;
       color: #333;
     }
@@ -43,3 +45,29 @@
     .tab-content.active {
       display: block;
     }
+
+
+/* Time tracking table*/
+
+.table-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#time-table {
+  border-collapse: collapse;
+  background: white;
+  margin: 2rem auto;
+  min-width: 1200px; 
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+#time h2 {
+  text-align: center;
+} 
