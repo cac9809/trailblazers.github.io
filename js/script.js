@@ -1,3 +1,7 @@
+function loadDoc(path) {
+  document.getElementById("doc-frame").src = path;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const buttons = document.querySelectorAll(".tab-button");
   const tabs = document.querySelectorAll(".tab-content");

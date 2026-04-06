@@ -40,7 +40,8 @@
          <hr class="styled-hr" style="width:100%;">
          <div style="height: 5px; overflow: hidden; width: 100%;"></div>
       </div>
-      <p>2/2/2025 - Project Website is launched!</p>
+      <p>4/5/2026 - Project Documentation Page was overhauled and many Project Artifacts were added</p>
+      <p>2/2/2026 - Project Website is launched!</p>
     </section>
 
     <section id="about" class="tab-content">
@@ -139,15 +140,60 @@
     </section>
 
 
-    <section id = "documentation" class = tab-content>
+
+
+
+
+    <section id="documentation" class="tab-content">
       <h2>Project Documents</h2>
+
       <div>
          <hr class="styled-hr" style="width:100%;">
          <div style="height: 5px; overflow: hidden; width: 100%;"></div>
       </div>
-      <p> Future Project Artifacts including Domain Model, Development Methodology, and Metrics will go here </p>
+
+      <div class="docs-container">
+
+        <div class="docs-sidebar"> 
+          <h4>Planning Documents</h4>
+          <div class="docs-item" onclick="loadDoc('docs/Initial Project Plan.pdf')">Initial Project Plan</div>
+          <div class="docs-item" onclick="loadDoc('docs/User_Stories.pdf')">User Stories Doc</div>
+          <div class="docs-item" onclick="loadDoc('docs/UI Milestones and Work Breakdown.pdf')">UI Milestones and Work Breakdown</div>
+          <div class="docs-item" onclick="loadDoc('docs/UI Milestone Gantt Chart - Sheet1.pdf')">UI Milestone Gantt Chart</div>
+          <div class="docs-item" onclick="loadDoc('docs/Risk Management plan - Sheet1.pdf')">Risk Management Plan</div>
+          <div class="docs-item" onclick="loadDoc('docs/Project Plan_ Additional Elements and Final Plan.pdf')">Project Plan: Additional Elements and Final Plan</div>
+          <div class="docs-item" onclick="loadDoc('docs/Project Kickoff Artifacts.pdf')">Project Kickoff Artifacts</div>
+          <div class="docs-item" onclick="loadDoc('docs/New DB Information.pdf')">New DB Information</div>
+          <div class="docs-item" onclick="loadDoc('docs/MVP Requirements Gathering Notes.pdf')">MVP Requirements Gathering Notes</div>
+          <div class="docs-item" onclick="loadDoc('docs/Metrics - Sheet1.pdf')">Metrics</div>
+
+          <h4>Design Documents</h4>
+          <div class="docs-item" onclick="loadDoc('docs/Trailblazers Domain Model.pdf')">Old Domain Model</div>
+          <div class="docs-item" onclick="loadDoc('docs/UpdatedDataModel.drawio.pdf')">Data Model</div>
+          <div class="docs-item" onclick="loadDoc('docs/Development Methodology.pdf')">Development Methodology</div>
+          <div class="docs-item" onclick="loadDoc('docs/AWS Milestones and Work Breakdown.pdf')">Milestones and Work Breakdown</div>
+          <div class="docs-item" onclick="loadDoc('docs/Requirements, Flow, and Use Cases.pdf')">Requirements, Flow, and Use Cases.pdf</div>
+          
+
+          <h4>Diagrams</h4>
+          <div class="docs-item" onclick="loadDoc('docs/Sequence Diagrams Rough Draft.pdf')">Sequence Diagram Rough Draft Sketches</div>
+          <div class="docs-item" onclick="loadDoc('docs/Sequence Diagrams Rough Draft-1.pdf')">Sequence Diagram Rough Draft</div>
+
+          <h4>Misc</h4>
+          <div class="docs-item" onclick="loadDoc('docs/MidtermEvaluation1stSemester.docx.pdf')">Midterm Evaluation 1st Semester</div>
+        </div>
+
+        <div class="docs-viewer">
+          <iframe id="doc-frame"></iframe>
+        </div>
+
+      </div>
 
     </section>
+
+
+
+
 
 
     <section id="time" class="tab-content">
