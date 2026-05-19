@@ -62,7 +62,6 @@ function loadCsvIntoTable(csvPath, tableId) {
 
   }
 
-  loadCsvIntoTable("data/time-tracking1.csv", "time-table-spring");
-  loadCsvIntoTable("data/time-tracking2.csv", "time-table-summer");
+  loadCsvIntoTable("https://docs.google.com/spreadsheets/d/e/2PACX-1vSNnYtP6PlkKPZ8KYeWovuGMicf7J_5a0WUxdQ_OQ6dA-_5R6veh3y9ylgcLFPU038ZOr9CE6eBGEV8/pub?gid=1459942543&single=true&output=csv", "time-table-spring");
 });
 
